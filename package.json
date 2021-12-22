@@ -1,0 +1,38 @@
+{
+  "name": "simple-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhuang23/node-simple-web-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhuang23/node-simple-web-app/issues"
+  },
+  "homepage": "https://github.com/Bhuang23/node-simple-web-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.13",
+    "newrelic": "^8.6.0",
+    "stripe": "^8.154.0"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "nodemon": "^2.0.7"
+  }
+}
